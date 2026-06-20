@@ -47,7 +47,7 @@ flowchart LR
     
     style B fill:#3b82f6,stroke:#1e40af,stroke-width:2px,color:#fff
     style D fill:#10b981,stroke:#047857,stroke-width:2px,color:#fff
-
+    ```
 
 🧠 AI & System Architecture
 Genz Finance avoids a slow, monolithic AI model. Instead, we use Task-Specific Small Language Models (SLMs) orchestrated via a chain-based layer (similar to LangChain).
@@ -100,4 +100,4 @@ Tooling: ESLint, Vite Config
 
 [ ] Refine the UI flows for QR payments and Trading Learner mode.
 
-[ ] Mobile App Migration: Transition validated flows from the web prototype to the production mobile stack (Targeting React Native, Expo, AWS Lambda, DynamoDB, and Gemini API).
+[ ] Mobile App Migration: Transition validated flows from the web prototype to the production mobile stack.
