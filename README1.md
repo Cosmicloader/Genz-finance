@@ -47,9 +47,9 @@ flowchart LR
     
     style B fill:#3b82f6,stroke:#1e40af,stroke-width:2px,color:#fff
     style D fill:#10b981,stroke:#047857,stroke-width:2px,color:#fff
-    ```
+```
 
-🧠 AI & System Architecture
+##🧠 AI & System Architecture
 Genz Finance avoids a slow, monolithic AI model. Instead, we use Task-Specific Small Language Models (SLMs) orchestrated via a chain-based layer (similar to LangChain).
 graph TD
     UI[📱 React/Vite Client] -->|User Request| O[🔗 Chain-based Orchestration]
@@ -73,14 +73,14 @@ graph TD
     O --> P
     P -->|Sanitized Response| UI
 
-🛡️ Privacy Mindset
+##🛡️ Privacy Mindset
 Modular Updates: Prompts and configurations update as facts change, while the core model backbone remains stable.
 
 Secure Environment: Personal Identity Information (PII) is isolated from analytical logic.
 
 Minimized Exposure: External API calls are strictly scoped.
 
-💻 Tech Stack & Roadmap
+##💻 Tech Stack & Roadmap
 Currently functioning as a web prototype to validate UX and AI behaviors before shipping the production mobile app.
 
 Frontend: React + Vite
@@ -91,7 +91,7 @@ State: React Context, Modular components
 
 Tooling: ESLint, Vite Config
 
-🛣️ Next Steps
+##🛣️ Next Steps
 [x] Define AI architecture and task-specific model roles.
 
 [ ] Connect task-specific models to the chain-orchestration layer.
