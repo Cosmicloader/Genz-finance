@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- Image placeholder: Replace the link below with your actual banner or logo -->
-<img src="[https://via.placeholder.com/800x200/1e1e2f/8b5cf6?text=](https://via.placeholder.com/800x200/1e1e2f/8b5cf6?text=)💸+Genz+Finance" alt="Genz Finance Banner" width="100%"/>
+<img src="https://via.placeholder.com/800x200/1e1e2f/8b5cf6?text=💸+Genz+Finance" alt="Genz Finance Banner" width="100%"/>
 
 # Genz Finance
 *The single, smart money companion for Gen Z.*
@@ -101,4 +100,4 @@ Currently functioning as a web prototype to validate UX and AI behaviors before 
 - [ ] Connect task-specific models to the chain-orchestration layer.
 - [ ] Wire up live data APIs (Market data, Coupons).
 - [ ] Refine the UI flows for QR payments and Trading Learner mode.
-- [ ] **Mobile App Migration:** Transition validated flows from the web prototype to the production mobile stack (Targeting React Native, Expo, AWS Lambda, DynamoDB, and Gemini API).
+- [ ] **Mobile App Migration:** Transition validated flows from the web prototype to the production mobile stack.
