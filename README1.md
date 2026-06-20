@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Image placeholder: Replace the link below with your actual banner or logo -->
-<img src="https://via.placeholder.com/800x200/1e1e2f/8b5cf6?text=💸+Genz+Finance" alt="Genz Finance Banner" width="100%"/>
+<img src="[https://via.placeholder.com/800x200/1e1e2f/8b5cf6?text=](https://via.placeholder.com/800x200/1e1e2f/8b5cf6?text=)💸+Genz+Finance" alt="Genz Finance Banner" width="100%"/>
 
 # Genz Finance
 *The single, smart money companion for Gen Z.*
@@ -49,8 +49,13 @@ flowchart LR
     style D fill:#10b981,stroke:#047857,stroke-width:2px,color:#fff
 ```
 
-##🧠 AI & System Architecture
-Genz Finance avoids a slow, monolithic AI model. Instead, we use Task-Specific Small Language Models (SLMs) orchestrated via a chain-based layer (similar to LangChain).
+---
+
+## 🧠 AI & System Architecture
+
+Genz Finance avoids a slow, monolithic AI model. Instead, we use **Task-Specific Small Language Models (SLMs)** orchestrated via a chain-based layer (similar to LangChain). 
+
+```mermaid
 graph TD
     UI[📱 React/Vite Client] -->|User Request| O[🔗 Chain-based Orchestration]
 
@@ -72,32 +77,28 @@ graph TD
 
     O --> P
     P -->|Sanitized Response| UI
+```
 
-##🛡️ Privacy Mindset
-Modular Updates: Prompts and configurations update as facts change, while the core model backbone remains stable.
+### 🛡️ Privacy Mindset
+* **Modular Updates:** Prompts and configurations update as facts change, while the core model backbone remains stable.
+* **Secure Environment:** Personal Identity Information (PII) is isolated from analytical logic.
+* **Minimized Exposure:** External API calls are strictly scoped.
 
-Secure Environment: Personal Identity Information (PII) is isolated from analytical logic.
+---
 
-Minimized Exposure: External API calls are strictly scoped.
+## 💻 Tech Stack & Roadmap
 
-##💻 Tech Stack & Roadmap
 Currently functioning as a web prototype to validate UX and AI behaviors before shipping the production mobile app.
 
-Frontend: React + Vite
+* **Frontend:** React + Vite
+* **Styling:** CSS / Custom Gen Z tailored UI
+* **State:** React Context, Modular components
+* **Tooling:** ESLint, Vite Config
 
-Styling: CSS / Custom Gen Z tailored UI
+### 🛣️ Next Steps
 
-State: React Context, Modular components
-
-Tooling: ESLint, Vite Config
-
-##🛣️ Next Steps
-[x] Define AI architecture and task-specific model roles.
-
-[ ] Connect task-specific models to the chain-orchestration layer.
-
-[ ] Wire up live data APIs (Market data, Coupons).
-
-[ ] Refine the UI flows for QR payments and Trading Learner mode.
-
-[ ] Mobile App Migration: Transition validated flows from the web prototype to the production mobile stack.
+- [x] Define AI architecture and task-specific model roles.
+- [ ] Connect task-specific models to the chain-orchestration layer.
+- [ ] Wire up live data APIs (Market data, Coupons).
+- [ ] Refine the UI flows for QR payments and Trading Learner mode.
+- [ ] **Mobile App Migration:** Transition validated flows from the web prototype to the production mobile stack (Targeting React Native, Expo, AWS Lambda, DynamoDB, and Gemini API).
